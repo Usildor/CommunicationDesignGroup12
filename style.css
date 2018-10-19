@@ -1,11 +1,49 @@
-body { 
+/*body{
+	  background-image:url(vagabond.jpg); 
+}*/
+p { 
   margin-left: 20%;
   margin-right: 20%;
-  color: white;
-  background-color:white;
-  background-image:url(vagabond.jpg);
+  color: black;
+  
+
+  
 
 }
 h1 {
 	text-align: center;
+	margin-bottom: 30%;
+	padding-top: 15%;
+	/*margin-top: 30%;*/
+	
 }
+div {
+
+	background-image:url(vagabond.jpg);
+	height: 1000px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-bottom:10px;
+	border:2px ;
+	transition:all ease-out .5s 0s;
+			
+		}
+
+div:nth-child(even){
+	background-image:url(vagabond.jpg); 
+	height: 1000px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fade-ani{
+	opacity:1;position:relative;
+}
+
+		
+.fade-ani.showing{}
+.fade-in.showing{opacity:0;}
+
