@@ -4,7 +4,7 @@ $(function(){
 		var top_of_window = $(window).scrollTop() /*+ $(window).height();*/
 		//fade-in
 		$('.fadeSwitch').each(function(){
-			var top_of_object = $(this).position().top + $(this).outerHeight();
+			var top_of_object = 0.3*$(this).position().top + 0.3*$(this).outerHeight();
 			 if( top_of_window > top_of_object ){
 				$('.fade-ani').addClass('showing');
 			}
