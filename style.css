@@ -19,7 +19,7 @@ iframe{
 	margin-left: 20%;
   margin-right: 20%;
 }
-h1 {
+.frontTitle {
 	text-align: center;
 	margin-bottom: 30%;
 	padding-top: 25%;
@@ -29,7 +29,7 @@ h1 {
 	margin-top: -10%;
 }
 
-h1 span{
+.frontTitle span{
 	background-color: #C5C5C6;
 	opacity: 0.9;
 }
