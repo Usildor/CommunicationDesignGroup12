@@ -1,5 +1,6 @@
 body{
 	  font-family:medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+	      width: 100%;
 }
 
 p {
@@ -39,8 +40,10 @@ h1 span{
   width:60%;height:400px;
 }
 .fade {
+	    width: 100%;
 
 	background-image:url(img/background.jpeg);
+	z-index: 1;
 	height: 1000px;
 	background-attachment: fixed;
     background-position: center;
@@ -69,6 +72,7 @@ h1 span{
   font-weight: 900;
   font-size: 3.3em;
   text-align: center;
+  
 }
 
 .ml6 .text-wrapper {
@@ -689,4 +693,23 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 .introduction{
 	font-size: 30px;
 	
+}
+.interviewTitle{
+	display:flex;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.Ruben{
+	margin-top: 5%;
+	border-radius: 50%;
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.interview_title{
+	text-align: left;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+#logo{
+  width: 15vw;
+  z-index: 2;
 }
