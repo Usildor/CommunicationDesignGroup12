@@ -9,7 +9,6 @@ p {
   color: black;
 }
 
-/* we need to add a breaking point for mobile*/
 h2,h3,h5{
 	margin-left: 20%;
   margin-right: 20%;
@@ -58,7 +57,7 @@ h1 span{
 	transition:all ease-out .5s 0s;
 		}
 
-/*do we need this?*/
+
 
 .fade-ani{
 	opacity:1;position:relative;
@@ -675,7 +674,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
     left: 0px;
 	}
 	.bridgeContainer {
-		border-color: #efefef;
+
 		max-width: 95%;
 	}
 	h2, h3, h5 {
@@ -720,4 +719,158 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   z-index: 2;
   margin-left: 80%;
   margin-top: 2%;
+}
+
+.contact{
+	margin: 0;
+	padding: 0;
+
+}
+
+.contact ul{
+	display: flex;
+	position: relative;
+	top: 50%;
+	left: 35%;
+	transform: translate(-50%;-50%);
+
+}
+
+.contact ul li{
+	list-style: none;
+
+}
+
+.contact ul li a{
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	text-align: center;
+	line-height: 80px;
+	font-size: 35px;
+	margin: 0 10px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #fff;
+	z-index: 1;
+}
+
+.contact ul li a .fa{
+	position: relative;
+	color: #262626;
+	transition: .5s;
+}
+
+.contact ul li a:hover .fa{
+	color: #fff;
+	transform: rotateY(360deg);
+	z-index: 3;
+}
+
+.contact ul li a:before{
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: .5s;
+	z-index: 2;
+}
+.contact ul li a:hover:before{
+	top: 0;
+}
+.contact ul li:nth-child(1) a:before{
+	background: #3b5999;
+}
+.contact ul li:nth-child(2) a:before{
+	background: #00b33c;
+}
+.contact ul li:nth-child(3) a:before{
+	background: #FFFC00;
+}
+.contact ul li:nth-child(4) a:before{
+	background: #dd4b39;
+}
+
+#hide
+{
+	display:none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #00004d;
+	padding: 10px 24px;
+	color: white;
+	border: 2px solid #00004d;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#hide:hover{
+	background-color: white;
+	color: #00004d;
+}
+#show
+{
+	display:true;
+	cursor: pointer;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #00004d;
+	padding: 10px 24px;
+	color: white;
+	border: 2px solid #00004d;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#show:hover{
+	background-color: white;
+	color: #00004d;
+}
+#data
+{
+	display:none;
+}
+
+#hide2
+{
+	display:none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #00004d;
+	padding: 10px 24px;
+	color: white;
+	border: 2px solid #00004d;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+#hide2:hover{
+	background-color: white;
+	color: #00004d;
+}
+#show2
+{
+	display:true;
+	cursor: pointer;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #00004d;
+	padding: 10px 24px;
+	color: white;
+	border: 2px solid #00004d;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#show2:hover{
+	background-color: white;
+	color: #00004d;
+}
+#data2
+{
+	display:none;
 }

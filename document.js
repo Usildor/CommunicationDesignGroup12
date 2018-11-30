@@ -133,3 +133,34 @@ function playPauseSlides() {
 		playPauseBtn.style.backgroundPositionY="-33px";
 	}
 }
+
+// JavaScript Document
+
+$('#show').click(function()
+{
+	$('#show').css('display','none');
+	$('#data').show();
+	$('#hide').show();
+});
+
+$('#hide').click(function()
+{
+	$('#hide').css('display','none');
+	$('#data').hide();
+	$('#show').show();
+});
+
+//button 2
+$('#show2').click(function()
+{
+	$('#show2').css('display','none');
+	$('#data2').show();
+	$('#hide2').show();
+});
+
+$('#hide2').click(function()
+{
+	$('#hide2').css('display','none');
+	$('#data2').hide();
+	$('#show2').show();
+})
